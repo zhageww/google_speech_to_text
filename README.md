@@ -3,7 +3,7 @@
 ## Description:
 These Python code use google's REST web api for speech recognition, so, please make sure that you have an availiable Google account and Google API_key for Speech_to_Text.
 
-## Requirment:
+## Requirement:
 ### Python:
 This project is based on Python2, and unfortunately, you cannot use it in Python3 environment directly! 
 
