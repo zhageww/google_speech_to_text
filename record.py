@@ -34,7 +34,7 @@ class recoder:
         save_count = 0 
         save_buffer = [] 
         time_count = self.TIME_COUNT
-        os.system("echo 1 > /sys/class/leds/status_led/brightness")
+        #os.system("echo 1 > /sys/class/leds/status_led/brightness")
         while True:
             time_count -= 1
             string_audio_data = stream.read(self.NUM_SAMPLES) 
